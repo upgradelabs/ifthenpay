@@ -2,12 +2,24 @@
 
 This package provides an easy integration with the Ifthenpay API for Laravel projects.
 
+**Version compatibility**  
+| Package version | Laravel versions supported |
+|-----------------|-----------------------------|
+| ^1.0            | 8.x, 9.x, 10.x              |
+| ^2.0            | 11.x, 12.x                  |
+
+
+
 ## Installation
 
-Require the package via composer:
+Choose the right version for your project:
 
 ```bash
-composer require upgradelabs/ifthenpay
+# Laravel 8–10
+composer require upgradelabs/ifthenpay:^1.0
+
+# Laravel 11–12
+composer require upgradelabs/ifthenpay:^2.0
 ```
 
 Publish the configuration file:
